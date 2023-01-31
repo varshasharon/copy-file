@@ -19,14 +19,12 @@ Start the for loop
 : Print the output
 
 ## PROGRAM:
-#Developed by: E. VARSHA SHARON
-
-#Register Number: 22004867
-
+#Developed By: E. VARSHA SHARON
+#Reference No: 22004867
 with open("text.txt") as f:
-    with open("text1.txt", "w") as f1:
-         for line in f:
-              f1.write(line)
+    with open("text1.txt","w") as f1:
+        for line in f:
+            f1.write(line)
 ### OUTPUT:
 
 ![copy](https://user-images.githubusercontent.com/98278161/215007396-25e06c3f-074f-422a-8a00-7f107f198a2c.jpeg)
